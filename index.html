@@ -1,9 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body></body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunny Spoon</title>
+    <link href="./vendor/normalize.css" rel="normalize"/>
+    <link href="./pages/index.css" rel="stylesheet"/>
+
+</head>
+  <body>
+    <div class="page">
+      <header class="header" id="link-home">
+          <img
+              src="./images/SunnySpoonLogo.svg"
+              alt="Sunny Spoon Logo"
+              class="header__logo"
+          />
+          <nav class="nav">
+              <ul class="nav__links">
+                  <li><a href="#link-home">Home</a></li>
+                  <li><a href="https://github.com/prince21241/Project-Sunny-Spoon/blob/main/README.md" target="_blank">About</a></li>
+                  <li><a href="#link-contact">Contacts</a></li>
+              </ul>
+          </nav>
+      </header>
+      <main class="page__content">
+          <section class="page__form">
+              <!-- This will hold the populated ingredients from the search -->
+              <div class="form-container">
+              </div>
+              <!-- This is the ckeck box of summer ingredients -->
+              <div class="form__check-box">
+              <input type="checkbox" name="ingrd1" value="Cucumbers">
+              <label for="ingrd1">Cucumbers</label>
+              <input type="checkbox" name="ingrd2" value="Watermelon">
+              <label for="ingrd2">Watermelon</label>
+              <input type="checkbox" name="ingrd3" value="Lemons">
+              <label for="ingrd3">Lemons</label>
+              <input type="checkbox" name="ingrd4" value="Cantaloupe">
+              <label for="ingrd4">Cantaloupe</label>
+              <input type="checkbox" name="ingrd5" value="Tequila">
+              <label for="ingrd5">Tequila</label>
+              <input type="checkbox" name="ingrd6" value="Gin">
+              <label for="ingrd6">Gin</label>
+              <input type="checkbox" name="ingrd7" value="Wine">
+              <label for="ingrd7">Wine</label>
+              <input type="checkbox" name="ingrd8" value="Strawberry">
+              <label for="ingrd8">Strawnerry</label>
+              <input type="checkbox" name="ingrd9" value="Coconut Milk">
+              <label for="ingrd9">Cucumbers</label>
+              <input type="checkbox" name="ingrd10" value="Orange">
+              <label for="ingrd10">Orange</label>
+              </div>
+              <!--This is the search -->
+              <input type="text" placeholder="Type Me To Me Rachel" class="form__input">
+              <button class="form__input_btn">?</button>
+              <button class="form__btn">Find Recipes</button>
+          </section>
+          <section class="cards">
+              <ul class="cards__list">
+              </ul>
+          </section>
+      </main>
+      <footer class="footer" id="link-contact">
+          <p class="footer__copyright">&copy; 2024 Prince Raval, Cordilia Crow-Drummond, Jennifer Akanoh, and Michael Watson</p>
+          <div class="footer__content">
+              <img
+              src="./images/Spoon-Footer.svg"
+              alt="Spoon"
+              class="footer__logo"
+              />
+          </div>
+          <div class="footer__social">
+              <img
+              src="./images/Insta.svg"
+              alt="Instagram Icon"
+              class="footer__social-icon"
+              />
+              <img
+              src="./images/Youtube.svg"
+              alt="Youtube Icon"
+              class="footer__social-icon"
+              />
+          </div>
+      </footer>
+    </div>
+    <template id="cards-template">
+      <li class="card">
+        <img
+        id="template-img"
+        src=""
+        alt=""
+        class="card__image"
+        />
+        <div class="card__descript">
+          <h2 class="card__text"></h2>
+          <button type="submit" class="card__results-btn"></button>
+        </div>
+      </li>
+    </template>
+    <script src="scprits/index.js"></script>
+  </body>
 </html>
