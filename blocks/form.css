@@ -33,9 +33,10 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    height: 50px;
+    height: 70px;
     padding-top: 20px;
-    font-weight: 300;
+    align-items: center;
+    gap: 15px;
 }
 
 .form__input_container{
@@ -48,9 +49,9 @@
     display: block;
     border: black 1px solid;
     border-radius: 6px;
-    color:white;
+    color:black;
     font-family: "Ubuntu";
-    font-weight: 400;
+    font-weight: 300;
     width: 200px;
     padding-left: 10px;
 }
@@ -77,10 +78,18 @@
     border-radius: 40px;
     padding: 5px;
     box-shadow: 2px 5px 0px rgba(248, 207, 41, 0.9);
+    cursor: pointer;
 }
 
-input[type=checkbox]{
-    width: auto;
-    accent-color: green;
+
+[type=checkbox]:checked{
+    accent-color: limegreen;
 }
 
+/* label[for=ingrd1]{
+    color: black;
+}
+
+label[for=ingrd1]:checked{
+    color: lime;
+} */

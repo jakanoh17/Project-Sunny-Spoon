@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sunny Spoon</title>
+    <link rel="Icon" href="./images/SunnySpoonLogo.svg" type="image">
     <link href="./vendor/normalize.css" rel="normalize"/>
     <link href="./pages/index.css" rel="stylesheet"/>
 
 </head>
   <body>
     <div class="page">
-      <header class="header" id="link-home">
+      <header class="header">
           <img
             src="./images/SunnySpoonLogo.svg"
             alt="Sunny Spoon Logo"
@@ -24,8 +25,8 @@
             </ul>
           </nav>
       </header>
-      <main class="page__content">
-          <section class="form">
+      <main class="page__content" id="link-home">
+          <section class="form" >
               <!-- This will hold the populated ingredients from the search -->
               <div class="form__container">
                 <p class="form__container-text"></p>
@@ -40,7 +41,7 @@
               <!-- This is the ckeck box of summer ingredients -->
               <div class="form__check-box">
               
-              <label for="ingrd1"><input type="checkbox" name="ingrd1" value="Cucumbers"> Cucumbers</label>
+              <label for="ingrd1" type="checkbox"><input type="checkbox" name="ingrd1" value="Cucumbers"> Cucumbers</label>
               
               <label for="ingrd2"><input type="checkbox" name="ingrd2" value="Watermelon"> Watermelon</label>
               
@@ -63,7 +64,7 @@
               <!--This is the search -->
               <div class="form__input_container">
                 <!-- <button class="form__input_btn">?</button> -->
-                <input type="text" placeholder="Strawberry, Bananna..." class="form__input">
+                <input type="text" placeholder="Strawberry..." class="form__input">
               </div>
               
           </section>
