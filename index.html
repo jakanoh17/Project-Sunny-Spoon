@@ -1,118 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sunny Spoon</title>
-    <link rel="Icon" href="./images/SunnySpoonLogo.svg" type="image">
-    <link href="./vendor/normalize.css" rel="normalize"/>
-    <link href="./pages/index.css" rel="stylesheet"/>
-
-</head>
+    <link rel="Icon" href="./images/SunnySpoonLogo.svg" type="image" />
+    <link href="./vendor/normalize.css" rel="normalize" />
+    <link href="./pages/index.css" rel="stylesheet" />
+  </head>
   <body>
     <div class="page">
       <header class="header">
-          <img
-            src="./images/SunnySpoonLogo.svg"
-            alt="Sunny Spoon Logo"
-            class="header__logo"
-          />
-          <nav class="nav">
-            <ul class="nav__links">
-              <li class="nav__link"><a href="#link-home">Home</a></li>
-              <li class="nav__link"><a href="https://github.com/prince21241/Project-Sunny-Spoon/blob/main/README.md" target="_blank">About</a></li>
-              <li class="nav__link"><a href="#link-contact">Contacts</a></li>
-            </ul>
-          </nav>
+        <img
+          src="./images/SunnySpoonLogo.svg"
+          alt="Sunny Spoon Logo"
+          class="header__logo"
+        />
+        <nav class="nav">
+          <ul class="nav__links">
+            <li class="nav__link"><a href="#link-home">Home</a></li>
+            <li class="nav__link">
+              <a
+                href="https://github.com/prince21241/Project-Sunny-Spoon/blob/main/README.md"
+                target="_blank"
+                >About</a
+              >
+            </li>
+            <li class="nav__link"><a href="#link-contact">Contacts</a></li>
+          </ul>
+        </nav>
       </header>
       <main class="page__content" id="link-home">
-          <section class="form" >
-              <!-- This will hold the populated ingredients from the search -->
-              <div class="form__container">
-                <p class="form__container-text"></p>
-              </div>
-              <div class="form__image_container">
-                <img
-                src="./images/line.svg"
-                alt="Line"
-                class="form__image"
-                />
-              </div>
-              <!-- This is the ckeck box of summer ingredients -->
-              <div class="form__check-box">
-              
-              <label for="ingrd1" type="checkbox"><input type="checkbox" name="ingrd1" value="Cucumbers"> Cucumbers</label>
-              
-              <label for="ingrd2"><input type="checkbox" name="ingrd2" value="Watermelon"> Watermelon</label>
-              
-              <label for="ingrd3"><input type="checkbox" name="ingrd3" value="Lemons"> Lemons</label>
-              
-              <label for="ingrd4"><input type="checkbox" name="ingrd4" value="Cantaloupe"> Cantaloupe</label>
-              
-              <label for="ingrd5"><input type="checkbox" name="ingrd5" value="Tequila"> Tequila</label>
-              
-              <label for="ingrd6"><input type="checkbox" name="ingrd6" value="Gin"> Gin</label>
-              
-              <label for="ingrd7"><input type="checkbox" name="ingrd7" value="Wine"> Wine</label>
-              
-              <label for="ingrd8"><input type="checkbox" name="ingrd8" value="Strawberry"> Strawberry</label>
-              
-              <label for="ingrd9"><input type="checkbox" name="ingrd9" value="Coconut Milk"> Cucumbers</label>
-              
-              <label for="ingrd10"><input type="checkbox" name="ingrd10" value="Orange"> Orange</label>
-              </div>
-              <!--This is the search -->
-              <div class="form__input_container">
-                <!-- <button class="form__input_btn">?</button> -->
-                <input type="text" placeholder="Strawberry..." class="form__input">
-              </div>
-              
-          </section>
-          <div class="form__container_results-btn">
-            <button class="form__results-btn">Find Recipes</button>
+        <section class="form">
+          <!-- This will hold the populated ingredients from the search -->
+          <div class="form__container">
+            <p class="form__container-text"></p>
           </div>
-          <section class="cards">
-              <ul class="cards__list">
-              </ul>
-          </section>
+          <div class="form__image_container">
+            <img src="./images/line.svg" alt="Line" class="form__image" />
+          </div>
+          <!-- This is the ckeck box of summer ingredients -->
+          <div class="form__check-box">
+            <label for="ingrd1" type="checkbox"
+              ><input type="checkbox" name="ingrd1" value="Cucumbers" />
+              Cucumbers</label
+            >
+
+            <label for="ingrd2"
+              ><input type="checkbox" name="ingrd2" value="Watermelon" />
+              Watermelon</label
+            >
+
+            <label for="ingrd3"
+              ><input type="checkbox" name="ingrd3" value="Lemons" />
+              Lemons</label
+            >
+
+            <label for="ingrd4"
+              ><input type="checkbox" name="ingrd4" value="Cantaloupe" />
+              Cantaloupe</label
+            >
+
+            <label for="ingrd5"
+              ><input type="checkbox" name="ingrd5" value="Tequila" />
+              Tequila</label
+            >
+
+            <label for="ingrd6"
+              ><input type="checkbox" name="ingrd6" value="Gin" /> Gin</label
+            >
+
+            <label for="ingrd7"
+              ><input type="checkbox" name="ingrd7" value="Wine" /> Wine</label
+            >
+
+            <label for="ingrd8"
+              ><input type="checkbox" name="ingrd8" value="Strawberry" />
+              Strawberry</label
+            >
+
+            <label for="ingrd9"
+              ><input type="checkbox" name="ingrd9" value="Coconut Milk" />
+              Cucumbers</label
+            >
+
+            <label for="ingrd10"
+              ><input type="checkbox" name="ingrd10" value="Orange" />
+              Orange</label
+            >
+          </div>
+          <!--This is the search -->
+          <div class="form__input_container">
+            <!-- <button class="form__input_btn">?</button> -->
+            <input
+              type="text"
+              placeholder="Strawberry..."
+              class="form__input"
+            />
+          </div>
+        </section>
+        <div class="form__container_results-btn">
+          <button class="form__results-btn">Find Recipes</button>
+        </div>
+        <section class="cards">
+          <ul class="cards__list"></ul>
+        </section>
       </main>
       <footer class="footer" id="link-contact">
-          <p class="footer__copyright">&copy; 2024 Prince Raval, Cordilia Crow-Drummond, <br>Jennifer Akanoh, and Michael Watson</p>
-          <div class="footer__content">
-              <img
-              src="./images/Spoon-Footer.svg"
-              alt="Spoon"
-              class="footer__logo"
-              />
-          </div>
-          <div class="footer__social">
-              <img
-              src="./images/Insta.svg"
-              alt="Instagram Icon"
-              class="footer__social-icon"
-              />
-              <img
-              src="./images/Youtube.svg"
-              alt="Youtube Icon"
-              class="footer__social-icon"
-              />
-          </div>
+        <p class="footer__copyright">
+          &copy; 2024 Prince Raval, Cordilia Crow-Drummond, <br />Jennifer
+          Akanoh, and Michael Watson
+        </p>
+        <div class="footer__content">
+          <img
+            src="./images/Spoon-Footer.svg"
+            alt="Spoon"
+            class="footer__logo"
+          />
+        </div>
+        <div class="footer__social">
+          <img
+            src="./images/Insta.svg"
+            alt="Instagram Icon"
+            class="footer__social-icon"
+          />
+          <img
+            src="./images/Youtube.svg"
+            alt="Youtube Icon"
+            class="footer__social-icon"
+          />
+        </div>
       </footer>
     </div>
     <template id="cards-template">
       <li class="card">
-        <img
-        id="template-img"
-        src=""
-        alt=""
-        class="card__image"
-        />
+        <img id="template-img" src="" alt="" class="card__image" />
         <div class="card__descript">
           <h2 class="card__text"></h2>
           <button type="submit" class="card__results-btn"></button>
         </div>
       </li>
     </template>
-    <script src="scprits/index.js"></script>
+    <script src="src/index.js"></script>
   </body>
 </html>
