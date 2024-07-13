@@ -27,7 +27,15 @@
       <main class="page__content">
           <section class="form">
               <!-- This will hold the populated ingredients from the search -->
-              <div class="form-container">
+              <div class="form__container">
+                <p class="form__container-text"></p>
+              </div>
+              <div class="form__image_container">
+                <img
+                src="./images/line.svg"
+                alt="Line"
+                class="form__image"
+                />
               </div>
               <!-- This is the ckeck box of summer ingredients -->
               <div class="form__check-box">
@@ -46,17 +54,22 @@
               
               <label for="ingrd7"><input type="checkbox" name="ingrd7" value="Wine"> Wine</label>
               
-              <label for="ingrd8"><input type="checkbox" name="ingrd8" value="Strawberry"> Strawnerry</label>
+              <label for="ingrd8"><input type="checkbox" name="ingrd8" value="Strawberry"> Strawberry</label>
               
               <label for="ingrd9"><input type="checkbox" name="ingrd9" value="Coconut Milk"> Cucumbers</label>
               
               <label for="ingrd10"><input type="checkbox" name="ingrd10" value="Orange"> Orange</label>
               </div>
               <!--This is the search -->
-              <input type="text" placeholder="Type Me To Me Rachel" class="form__input">
-              <button class="form__input_btn">?</button>
-              <button class="form__btn">Find Recipes</button>
+              <div class="form__input_container">
+                <!-- <button class="form__input_btn">?</button> -->
+                <input type="text" placeholder="Strawberry, Bananna..." class="form__input">
+              </div>
+              
           </section>
+          <div class="form__container_results-btn">
+            <button class="form__results-btn">Find Recipes</button>
+          </div>
           <section class="cards">
               <ul class="cards__list">
               </ul>
