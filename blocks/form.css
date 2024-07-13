@@ -81,10 +81,16 @@
     cursor: pointer;
 }
 
+:checked + label{
+    color: green;
+}
+
 
 [type=checkbox]:checked{
     accent-color: limegreen;
 }
+
+
 
 /* label[for=ingrd1]{
     color: black;
