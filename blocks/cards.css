@@ -1,0 +1,13 @@
+.cards{
+max-width: 500px;
+width: 100%;
+}
+
+.cards__list{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 350px);
+    grid-gap: 15px 25px;
+    padding: 2px;
+    margin: 0 auto;
+}

@@ -1,0 +1,35 @@
+.nav{
+    width: 400px;
+    position: absolute;
+    right: 60px;
+    top: 20px;
+}
+
+.nav__links{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: 70a8ff;
+}
+
+.nav__link{
+    font-family: "Ubuntu";
+    font-weight: 300;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+.nav__link:hover{
+    color: 70a8ff;
+}

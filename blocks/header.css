@@ -1,0 +1,9 @@
+.header{
+    background-color: #FFF9DF;
+    height: 100px;
+}
+
+.header__logo{
+    max-width: 200px;
+    margin-left: 40px;
+}

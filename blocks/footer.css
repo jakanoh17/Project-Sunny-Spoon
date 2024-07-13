@@ -1,0 +1,30 @@
+.footer{
+    background-color: white;
+    margin: 0 auto;
+    padding: 0 25px 0px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+}
+
+.footer__copyright{
+    font-family: "Ubuntu";
+    font-size: 11px;
+}
+
+.footer__content{
+    
+}
+
+.footer__logo{
+    width: 200px
+}
+
+.footer__social{
+    
+}
+
+.footer__social-icon{
+    width: 30px;
+}
