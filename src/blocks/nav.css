@@ -1,8 +1,8 @@
 .nav{
     max-width: 400px;
     position: absolute;
-    right: 150px;
-    top: 20px;
+    right: 125px;
+    top: 40px;
 }
 
 .nav__links{
@@ -44,7 +44,7 @@ a:hover{
 
 @media screen and (max-width: 750px) {
     .nav{
-        right: 50px;
+        right: 30px;
     }
    
     .nav__link a{
