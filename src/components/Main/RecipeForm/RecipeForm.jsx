@@ -13,6 +13,10 @@ function RecipeForm({ query, setQuery }) {
       setQuery(newQuery);
     }
   }
+
+  function handleTextbox(evt) {
+    console.log(evt.target.value);
+  }
   return (
     <div className="recipe-form">
       <form className="form">
@@ -23,19 +27,20 @@ function RecipeForm({ query, setQuery }) {
             className="form__input form__input_type_text"
             type="search"
             value={query}
+            onChange={handleTextbox}
           />
         </div>
         <div className="form__image_container">
           <img src={line} alt="Line" className="form__image" />
         </div>
         {/* <!-- This is the ckeck box of summer ingredients --> */}
-        <form className="subform form__check-box">
+        <div className="subform form__check-box">
           <label htmlFor="ingrd1" type="checkbox">
             <input
               type="checkbox"
               name="ingrd1"
               value="Cucumbers"
-              onClick={handleCheckboxClick}
+              onChange={handleCheckboxClick}
             />
             Cucumbers
           </label>
@@ -45,7 +50,7 @@ function RecipeForm({ query, setQuery }) {
               type="checkbox"
               name="ingrd2"
               value="Watermelon"
-              onClick={handleCheckboxClick}
+              onChange={handleCheckboxClick}
             />
             Watermelon
           </label>
@@ -55,7 +60,7 @@ function RecipeForm({ query, setQuery }) {
               type="checkbox"
               name="ingrd3"
               value="Lemons"
-              onClick={handleCheckboxClick}
+              onChange={handleCheckboxClick}
             />
             Lemons
           </label>
@@ -65,7 +70,7 @@ function RecipeForm({ query, setQuery }) {
               type="checkbox"
               name="ingrd4"
               value="Cantaloupe"
-              onClick={handleCheckboxClick}
+              onChange={handleCheckboxClick}
             />
             Cantaloupe
           </label>
@@ -75,7 +80,7 @@ function RecipeForm({ query, setQuery }) {
               type="checkbox"
               name="ingrd5"
               value="Tequila"
-              onClick={handleCheckboxClick}
+              onChange={handleCheckboxClick}
             />
             Tequila
           </label>
@@ -85,7 +90,7 @@ function RecipeForm({ query, setQuery }) {
               type="checkbox"
               name="ingrd6"
               value="Gin"
-              onClick={handleCheckboxClick}
+              onChange={handleCheckboxClick}
             />{" "}
             Gin
           </label>
@@ -95,7 +100,7 @@ function RecipeForm({ query, setQuery }) {
               type="checkbox"
               name="ingrd7"
               value="Wine"
-              onClick={handleCheckboxClick}
+              onChange={handleCheckboxClick}
             />{" "}
             Wine
           </label>
@@ -105,7 +110,7 @@ function RecipeForm({ query, setQuery }) {
               type="checkbox"
               name="ingrd8"
               value="Strawberry"
-              onClick={handleCheckboxClick}
+              onChange={handleCheckboxClick}
             />
             Strawberry
           </label>
@@ -115,7 +120,7 @@ function RecipeForm({ query, setQuery }) {
               type="checkbox"
               name="ingrd9"
               value="Coconut Milk"
-              onClick={handleCheckboxClick}
+              onChange={handleCheckboxClick}
             />
             Cucumbers
           </label>
@@ -125,11 +130,11 @@ function RecipeForm({ query, setQuery }) {
               type="checkbox"
               name="ingrd10"
               value="Orange"
-              onClick={handleCheckboxClick}
+              onChange={handleCheckboxClick}
             />
             Orange
           </label>
-        </form>
+        </div>
         {/* <!--This is the search --> */}
         <div className="form__input_container">
           {/* <!-- <button className="form__input_btn">?</button> --> */}
