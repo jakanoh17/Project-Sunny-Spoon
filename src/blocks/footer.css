@@ -30,3 +30,28 @@
 .footer__social-icon{
     width: 30px;
 }
+
+@media screen and (max-width: 520px) {
+    .footer{
+        padding: 0 30px 0 30px;
+
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footer{
+        padding: 0 10px 0 10px;
+    }
+
+    .footer__copyright{
+        font-size: 9px;
+    }
+
+    .footer__logo{
+        height: 70px;
+    }
+
+    .footer__social-icon{
+        width: 20px;
+    }
+}
