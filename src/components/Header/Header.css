@@ -1,24 +1,24 @@
-.header{
-    background-color: #FFF9DF;
-    height: 100px;
+.header {
+  background-color: #fff9df;
+  height: 100px;
 }
 
-.header__logo{
-    max-width: 200px;
-    margin-left: 150px;
-    z-index: 100;
-    position: relative;
+.header__logo {
+  max-width: 200px;
+  margin-left: 150px;
+  z-index: 100;
+  position: relative;
 }
 
 @media screen and (max-width: 750px) {
-    .header__logo{
-        margin-left: 20px;
-    }
+  .header__logo {
+    margin-left: 20px;
+  }
 }
 
 @media screen and (max-width: 320px) {
-    .header__logo{
-     max-width: 125px;
-     margin-top: 25px;
-    }
+  .header__logo {
+    max-width: 125px;
+    margin-top: 25px;
+  }
 }

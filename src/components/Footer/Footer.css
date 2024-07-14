@@ -1,57 +1,53 @@
-.footer{
-    background-color: white;
-    margin: 0 auto;
-    padding: 0 50px 0 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 200px;
-
+.footer {
+  background-color: white;
+  margin: 0 auto;
+  padding: 0 50px 0 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 200px;
 }
 
-.footer__copyright{
-    font-family: "Ubuntu";
-    font-size: 11px;
-    width: 100px;
+.footer__copyright {
+  font-family: "Ubuntu";
+  font-size: 11px;
+  width: 100px;
 }
 
-.footer__content{
-    
+/* .footer__content {
+} */
+
+.footer__logo {
+  height: 100px;
 }
 
-.footer__logo{
-    height: 100px;
+/* .footer__social {
 }
-
-.footer__social{
-    
-}
-
-.footer__social-icon{
-    width: 30px;
+ */
+.footer__social-icon {
+  width: 30px;
 }
 
 @media screen and (max-width: 520px) {
-    .footer{
-        padding: 0 30px 0 30px;
-
-    }
+  .footer {
+    padding: 0 30px 0 30px;
+  }
 }
 
 @media screen and (max-width: 320px) {
-    .footer{
-        padding: 0 10px 0 10px;
-    }
+  .footer {
+    padding: 0 10px 0 10px;
+  }
 
-    .footer__copyright{
-        font-size: 9px;
-    }
+  .footer__copyright {
+    font-size: 9px;
+  }
 
-    .footer__logo{
-        height: 70px;
-    }
+  .footer__logo {
+    height: 70px;
+  }
 
-    .footer__social-icon{
-        width: 20px;
-    }
+  .footer__social-icon {
+    width: 20px;
+  }
 }
