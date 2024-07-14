@@ -29,7 +29,7 @@ function Results(props) {
   }, [props.query]);
 
   return (
-    <div className="results">
+    <div className="results results__container">
       <ul className="results__cards">
         {results.map((result, index) => {
           return (

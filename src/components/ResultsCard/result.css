@@ -1,0 +1,17 @@
+.result {
+  width: 100%;
+}
+
+.result__img {
+  width: 100%;
+}
+
+.result__name {
+  font-size: 15px;
+}
+
+.result__view-recipe-btn {
+  background-color: #cadefd;
+  border-color: #cadefd;
+  box-shadow: 2px 5px 0px #91bcff;
+}

@@ -5,21 +5,19 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 200px;
+  max-height: 70px;
 }
 
 .footer__copyright {
   font-family: "Ubuntu";
   font-size: 11px;
-  width: 100px;
 }
 
 /* .footer__content {
 } */
 
-.footer__logo {
-  height: 100px;
-}
+/* .footer__logo {
+} */
 
 /* .footer__social {
 }
