@@ -1,1 +1,1 @@
-import "./index.css";
+import "../vendor/index.css";

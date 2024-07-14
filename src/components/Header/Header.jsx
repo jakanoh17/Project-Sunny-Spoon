@@ -3,7 +3,9 @@ import logo from "../../images/SunnySpoonLogo.svg"
 function Header () {
     return (<header className="header">
         <img className="header__logo" src={logo} />
-        <nav className="nav" />
+        <div className="nav__bar">
+        <nav className="nav"></nav>
+        </div>
     </header>
     )
 }
