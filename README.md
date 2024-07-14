@@ -5,3 +5,7 @@ Sunny Spoon is a collaborative summer recipe website brought to you by culinary 
 From refreshing salads and chilled soups to grilled delicacies and fruity desserts, Sunny Spoon provides inspiration for every meal. Our user-friendly platform ensures that both novice cooks and seasoned chefs can find joy in creating mouthwatering dishes perfect for warm weather gatherings or cozy nights at home.
 
 Join us on Sunny Spoon and explore a world of culinary creativity designed to make your summer truly delicious!
+
+***How to run project locally:***
+clone project onto Git (run the following in CLI) --> git clone https://github.com/prince21241/Project-Sunny-Spoon.git
+run the following --> npm install && npm run dev
