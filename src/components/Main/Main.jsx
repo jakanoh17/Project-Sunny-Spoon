@@ -3,7 +3,7 @@ import Results from "./Results/Results";
 import React from "react";
 
 function Main() {
-  const [query, setQuery] = React.useState(["chicken", "tomato"]);
+  const [query, setQuery] = React.useState(["apple", "tequila"]);
 
   return (
     <main className="page__content" id="link-home">
