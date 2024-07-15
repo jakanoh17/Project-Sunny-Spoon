@@ -1,7 +1,7 @@
 import RecipeForm from "./RecipeForm/RecipeForm";
 import Results from "./Results/Results";
 import React from "react";
-// import RecipeTemplate from "./RecipeTemplate/RecipeTemplate";
+import RecipeTemplate from "./RecipeTemplate/RecipeTemplate";
 
 function Main() {
   const [query, setQuery] = React.useState([]);
@@ -11,7 +11,7 @@ function Main() {
     <main className="page__content" id="link-home">
       <RecipeForm query={query} setQuery={setQuery} />
       <Results query={query} setCurrentRecipe={setCurrentRecipe} />
-      {/* <RecipeTemplate recipe={currentRecipe} /> */}
+      <RecipeTemplate recipe={currentRecipe} />
     </main>
   );
 }
