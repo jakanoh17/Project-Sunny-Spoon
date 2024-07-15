@@ -6,6 +6,7 @@
   padding: 0 5px 0 5px;
   display: flex;
   justify-content: center;
+
 }
 
 .form__container-text {
@@ -47,7 +48,8 @@
   color: black;
   font-family: "Ubuntu";
   font-weight: 300;
-  width: 200px;
+  width: 700px;
+  flex-wrap: wrap;
   padding-left: 10px;
 }
 
@@ -57,6 +59,7 @@
   border: none;
   min-height: 50px;
   margin: auto;
+  
 }
 
 /* Might not want to keep this, if we can just use the enter key to search. */

@@ -1,5 +1,5 @@
 import RecipeForm from "./RecipeForm/RecipeForm";
-import RecipeTemplate from 
+// import RecipeTemplate from 
 import Results from "./Results/Results";
 import React from "react";
 

@@ -21,3 +21,13 @@
   display: inline-block;
   width: calc((100%-100px) / 3);
 }
+
+@media screen and (max-width: 320px) {
+  .results{
+    padding: 10px;
+  }
+
+  .results__cards{
+    gap: 20px;
+  }
+}
