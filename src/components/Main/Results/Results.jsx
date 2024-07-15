@@ -16,7 +16,7 @@ function Results(props) {
           const recipe = {};
           recipe.name = hit.recipe.label;
           recipe.img = hit.recipe.images.REGULAR.url;
-          recipe.ingredients = hit.recipe.ingredients.map(
+          recipe.id = recipe.ingredients = hit.recipe.ingredients.map(
             (ingredientElem) => ingredientElem.text
           );
           return recipe;
@@ -34,7 +34,10 @@ function Results(props) {
         {results.map((result, index) => {
           return (
             <li key={index} className="results__card">
-              <ResultsCard name={result.name} image={result.img} />
+              <ResultsCard
+                recipe={result}
+                setCurrentRecipe={props.setCurrentRecipe}
+              />
             </li>
           );
         })}
