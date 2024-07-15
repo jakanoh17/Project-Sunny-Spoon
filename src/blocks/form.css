@@ -6,7 +6,16 @@
   padding: 0 5px 0 5px;
   display: flex;
   justify-content: center;
+  align-items: center;
+}
 
+.form__query {
+  height: min-content;
+}
+
+.form__query_empty {
+  color: #000c;
+  font-style: italic;
 }
 
 .form__container-text {
@@ -59,7 +68,6 @@
   border: none;
   min-height: 50px;
   margin: auto;
-  
 }
 
 /* Might not want to keep this, if we can just use the enter key to search. */

@@ -4,7 +4,7 @@ import React from "react";
 // import RecipeTemplate from "./RecipeTemplate/RecipeTemplate";
 
 function Main() {
-  const [query, setQuery] = React.useState(["apple", "tequila"]);
+  const [query, setQuery] = React.useState([]);
   const [currentRecipe, setCurrentRecipe] = React.useState({});
 
   return (

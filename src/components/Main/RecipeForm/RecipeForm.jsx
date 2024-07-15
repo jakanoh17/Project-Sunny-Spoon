@@ -14,21 +14,29 @@ function RecipeForm({ query, setQuery }) {
     }
   }
 
-  function handleTextbox(evt) {
-    console.log(evt.target.value);
-  }
+  // function handleTextbox(evt) {
+  //   setQuery([...query]);
+  // }
   return (
     <div className="recipe-form">
       <form className="form">
         {/* <!-- This will hold the populated ingredients from the search --> */}
         <div className="form__container">
-          <input
+          {/* <input
             placeholder="Strawberry..."
             className="form__input form__input_type_text"
-            type="search"
-            value={query}
+            type="text"
             onChange={handleTextbox}
-          />
+          /> */}
+          <p
+            className={`form__query ${
+              query.length == 0 ? "form__query_empty" : ""
+            }`}
+          >
+            {query.length == 0
+              ? "Checked options will appear here"
+              : query.join(", ")}
+          </p>
         </div>
         <div className="form__image_container">
           <img src={line} alt="Line" className="form__image" />
@@ -139,9 +147,9 @@ function RecipeForm({ query, setQuery }) {
         <div className="form__input_container">
           {/* <!-- <button className="form__input_btn">?</button> --> */}
         </div>
-        <div className="form__container_results-btn">
+        {/* <div className="form__container_results-btn">
           <button className="form__results-btn">Find Recipes</button>
-        </div>
+        </div> */}
       </form>
 
       <section className="cards">
