@@ -122,7 +122,7 @@ function RecipeForm({ query, setQuery }) {
               value="Coconut Milk"
               onChange={handleCheckboxClick}
             />
-            Cucumbers
+            Coconut Milk
           </label>
 
           <label htmlFor="ingrd10">
