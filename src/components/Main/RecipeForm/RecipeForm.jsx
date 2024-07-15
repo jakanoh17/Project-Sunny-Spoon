@@ -142,6 +142,27 @@ function RecipeForm({ query, setQuery }) {
             />
             Orange
           </label>
+
+          <label htmlFor="ingrd11">
+            <input
+              type="checkbox"
+              name="ingrd11"
+              value="Chicken"
+              onChange={handleCheckboxClick}
+            />
+            Chicken
+          </label>
+
+          <label htmlFor="ingrd12">
+            <input
+              type="checkbox"
+              name="ingrd12"
+              value="Steak"
+              onChange={handleCheckboxClick}
+            />
+            Steak
+          </label>
+
         </div>
         {/* <!--This is the search --> */}
         <div className="form__input_container">
