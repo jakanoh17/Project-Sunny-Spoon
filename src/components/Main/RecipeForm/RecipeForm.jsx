@@ -90,7 +90,7 @@ function RecipeForm({ query, setQuery }) {
               value="Tequila"
               onChange={handleCheckboxClick}
             />
-            Tequila
+             Tequila
           </label>
 
           <label htmlFor="ingrd6">
@@ -100,7 +100,7 @@ function RecipeForm({ query, setQuery }) {
               value="Gin"
               onChange={handleCheckboxClick}
             />{" "}
-            Gin
+             Gin
           </label>
 
           <label htmlFor="ingrd7">

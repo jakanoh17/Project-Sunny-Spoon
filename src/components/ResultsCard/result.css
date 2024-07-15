@@ -20,3 +20,9 @@
   text-wrap: nowrap;
   align-self: center;
 }
+
+@media screen and (max-width:320px) {
+  .result__name{
+    font-size: 12px;
+  }
+}
